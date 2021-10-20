@@ -10,6 +10,11 @@ app.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/notes.html"));
 });
 
+// Get notes by specific ID
+app.get("/notes/:id", (req, res) => {
+  res.json(notes(req.params.id));
+});
+
 // get index.html and return data inside the file
 app.get("/*", (req, res) => {
   res.sendFile(path.join(__dirname, "/public/index.html"));
