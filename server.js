@@ -31,7 +31,6 @@ app.get("/api/notes", (req, res) => {
 
 // delete notes by their id
 app.delete("/api/notes/:id", (req, res) => {
-  // return res.json(fs.readFile(req.params.id));
   fs.readFile("./db/db.json", function (err, text) {
     const dbData = JSON.parse(text);
     const filterData = dbData.filter((note) => note.id !== req.params.id);
