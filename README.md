@@ -1,29 +1,33 @@
 # Note Taker APP
 
-<h1>Objective</h1>
-<p>The objective of this application is to generate an application that allows developers to organize their thoughts and outline their ideas by creating notes</p>
+## Objective
+<p>As an avid note taker, I want to be able to write and save notes, so that I can organize my thoughts and keep track of tasks in a coherent and organized manner</p>
 
-<h2>The Process</h2>
-<p>Created functions and variables including file system and express allowing them to interact with the front end code</p>
+## Description
 
-<p>Made a get command that would grab the notes.html file and return the data to generate in a web page</p>
+<p>Web application allowing user to write down and organize their thoughts, tasks, and notes.</p>
 
-<p>Then I created a function that would allow the user to grab notes using a specific id using another get request</p>
+## Technologies Used
 
-<p>Created a get request to read the db.json file and return all of the saved notes as JSON files</p>
+<li>Javascript</li>
+<li>Node</li>
+<li>Express</li>
+<li>Heroku</li>
 
-<p>Then I added a function that would allow me to delete notes using their specific id's</p>
 
-<p>The I wrote a POST route to fetch the the route with api/notes in it</p>
+## Screenshots 
 
-<p>Lastly I wrote another get command to retrieve the index.html and return the data in the file to project onto a web page</p>
+<img width="1440" alt="Screen Shot 2022-06-11 at 1 31 12 PM" src="https://user-images.githubusercontent.com/87781987/173198836-3665161c-9c1c-414f-a63a-4eb8e0fbb369.png">
 
-<h3>Links</h3>
+<img width="1440" alt="Screen Shot 2022-06-11 at 1 32 42 PM" src="https://user-images.githubusercontent.com/87781987/173198852-c5d25d9d-0c74-42ab-896a-11228abe4538.png">
+
+
+
+
+## Links
 
 https://note-taker1997.herokuapp.com
 
-https://github.com/Titoxox97/Note-taker
-
-<h3>Author</h3>
+## Author
 
 <p>Matias Ahrensdorf</p>
